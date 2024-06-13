@@ -1,0 +1,131 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 5px;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+h3:hover {
+    color: #ff3b30;
+    border-color: #ff3b30;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 110px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff3b30;
+    transform: scale(1.05);
+}
+
+.word-list, .search-result {
+    margin-top: 20px;
+}
+
+.word-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.word-list li {
+    padding: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.word-list li:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+}
+
+.search-result p {
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.search-result p:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+}
+.tree-container {
+    margin-top: 20px;
+}
+
+.tree-node {
+    margin: 10px 0;
+    padding: 5px;
+    background: #eef;
+    border: 1px solid #99c;
+    border-radius: 4px;
+}
+
+.tree-node ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.tree-node li {
+    margin: 5px 0;
+    padding: 5px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
